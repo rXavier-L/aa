@@ -1,0 +1,81 @@
+h1 {
+  text-align: center;
+  font-size: 70px;
+  color: rgb(255, 255, 255);
+  font-family:jornal;
+}
+
+@font-face {
+  font-family: jornal ;
+  src: url("/arquivos/OldLondon.ttf");
+  
+}
+@font-face {
+font-family: batata;
+  src: url("/arquivos/OriginTech\ personal\ use.ttf");  
+}
+
+
+
+  hr {
+  width: 60%;
+  height: 15px;
+  background-color: rgb(151, 64, 24);
+}
+
+.p {
+  color: rgb(255, 255, 255);
+  width: 70%;
+  text-align: justify;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: batata;
+}
+
+#nuvens {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.alga {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+body {
+  background: url("/imagens/pexels-maxime-francis-2246476.jpg");
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center bottom;
+}
+
+button {
+  padding: 10px;
+  background-color: rgb(151, 64, 24);
+  color: white;
+  transition: 1s ;
+  border: 6px ridge blue;
+}
+
+button:hover{
+  background: black;
+  color: white;
+width: auto;
+border: 6px ridge rgb(16, 94, 65);
+}
+
+.buttons {
+width: 40%;
+margin: 20px auto;
+background-color: rgba(166, 255, 0, 0.161);
+text-align: center;
+padding: 20px;
+border-radius: 500px;
+border: 6px ridge rgb(46, 46, 75);
+}
+
