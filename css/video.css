@@ -1,0 +1,88 @@
+*{
+
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+ scroll-behavior: smooth;
+ scroll-padding-top: 8.375rem;
+
+video{
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  position:fixed;
+  bottom: 0;
+  right: 0;
+background-size: cover;
+z-index:-1;
+}
+
+.holder h1{
+color: rgb(62, 135, 198);
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+text-transform:inherit ;
+
+}
+
+.holder p {
+ color: #CCC;
+ font-size: 1.25rem;
+ font-family: sans-serif;
+ width: 70%;
+ margin: 0.625rem auto;
+ line-height: 1.25rem;
+ text-align: justify;
+}
+
+
+footer {
+ color: aliceblue;
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  width: 100%;
+  background-color: #222222a3;
+  padding: 20px;
+    /* display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-direction: row-reverse; */
+text-align: center;
+}
+
+.btn{
+
+  width: 12.5rem;
+  font-size: 1.125rem;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  padding: 10px;
+  border-radius: 10px;
+  background: linear-gradient(-80deg,#0088ff, orange );
+  cursor: pointer;
+  color: #fff;
+  border: none;
+}
+.btn :hover {
+
+  background: linear-gradient orange;
+
+}
+
+@media (max-width: 750px){
+
+
+.holder{
+  
+  width: 100% auto;
+  bottom: end;
+  padding: 1px;  
+ }
+.holder p{
+  
+  width: auto;
+  bottom: end;
+  padding: 1px;  
+ }
+}
+  

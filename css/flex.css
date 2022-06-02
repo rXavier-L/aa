@@ -1,0 +1,19 @@
+.flex {
+  
+  height: 900px;
+  background-color: aqua;
+  display: flex;
+  gap: 20px;
+ justify-content:end;
+ align-items: flex-start ;
+ align-content:flex-start;
+ flex-wrap: wrap;
+}
+
+.flex div {
+  background-color: coral;
+  color: aliceblue;
+  /* flex-grow: calc(0); */
+  flex-basis: 100px; 
+ font-size: 20px;
+}

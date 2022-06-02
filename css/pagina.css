@@ -10,7 +10,7 @@ h1 {
   src: url("/arquivos/OldLondon.ttf");
   
 }
-@font-face {
+@font-face { 
 font-family: batata;
   src: url("/arquivos/OriginTech\ personal\ use.ttf");  
 }
