@@ -1,0 +1,128 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+
+  background-color: #9356a8;
+
+}
+
+h1 {
+
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 80px;
+  margin: 10px auto;
+  color: white;
+}
+
+hr{
+
+  width: 70%;
+  margin: 0 auto;
+}
+
+.box {
+
+  width: 70%;
+  margin: 10px auto;
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+background:#eed9f0;
+padding: 20px;
+gap: 20px;
+box-shadow: 1px 1px 5px #222222;
+border-radius: 10px;
+}
+
+.right {
+
+background: white;
+padding: 20px;
+border-radius: 10px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.right form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  gap: 10px;
+}
+
+.right form label,p,span{
+  font-size: 20px;
+}
+
+.right form input,select{
+
+  padding: 10px;
+}
+.right form select:focus{
+
+  background-color:aqua
+}
+.right form input:focus{
+
+  background-color:aqua
+}
+
+.right form input[type="submit"]{
+  background: #9356a8;
+  color: white;
+  font-weight: 700px;
+  border:none;
+  border-radius: 10px;
+  cursor: pointer;
+
+}
+.right form input[type="submit"]:hover{
+  background: #000000;
+ 
+}
+.right form textarea{
+resize:none;
+height: 120px;
+}
+
+#genero label{
+  right: 100px;
+}
+.obrigado{
+  font-size: 40px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* tablet */
+
+  @media (min-width: 650px) and (max-width: 1279px){
+    .box{
+    grid-template-columns: 1fr ;
+   }
+ } 
+ 
+ 
+ /* mobile */
+ @media (max-width: 898px){
+
+  .box{
+    grid-template-columns: 1fr ;
+   }
+
+h1{
+font-size:20px;
+}
+.box .laft{
+
+  display: none;
+
+}
+
+ }
